@@ -1,0 +1,213 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    color: #697962;
+}
+
+a {
+    color: inherit;
+}
+
+.navbar {
+    color: rgb(204, 205, 206);
+    text-align: center;
+    position: relative;
+}
+
+.media {
+    max-width: 19%;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.media i {
+    padding: 0 5px;
+    color: #697962;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 16px;
+    font-style: italic;
+    font-size: 30px;
+    color: #697962;
+}
+
+li {
+    padding: 0 12px;
+    display: inline;
+}
+
+li a {
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #697962;
+    text-decoration: none;
+}
+
+.section-background {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: stretch;
+}
+
+.section-background * {
+    flex: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.section-background .text {
+    padding: 100px 0;
+}
+
+.section-background .section-heading {
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+.section-background .text span {
+    display: block;
+}
+
+.section-background .text .tagline {
+    display: block;
+    padding: 50px 0;
+}
+
+.section-background .image {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    background-color: #697962;
+    padding: 100px 0;
+}
+
+.about .section-header {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.about .text span {
+    display: block;
+    color: white;
+}
+
+.about .text.section-header {
+    display: block;
+}
+
+.about .text .text-para {
+    padding: 30px;
+    display: block;
+    color: white;
+    font-size: 15px;
+    line-height: 1.8pc;
+}
+
+.btn {
+    background-color: #697962;
+    border: 2px solid rgb(173, 172, 172);
+    color: #ced1cc;
+    padding: 10px 80px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.default:hover {
+    background: #3f5337;
+}
+
+.element-style {
+    background-color: #e9ddd5;
+    padding: 100px 0;
+    position: relative;
+}
+
+.img-right {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img-left {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.img-left img,
+.img-right img {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.name {
+    margin: 0;
+    display: block;
+    padding: 25px 0;
+    font-size: 25px;
+}
+
+.row-about-me {
+    width: 50%;
+    margin: auto;
+}
+
+.element-style .row-about-me .discription {
+    display: block;
+    font-size: 15px;
+}
+
+.about-page {
+    padding: 50px 0;
+}
+
+.about-page .container {
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.btn-2 {
+    background-color: #e9ddd5;
+    border: 2px solid rgb(173, 172, 172);
+    color: #3f5337;
+    padding: 8px 75px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.element-style .button {
+    padding: 30px;
+}
+
+.default-2:hover {
+    background: #dfa883;
+}
+
+.three-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-column .div-1,
+.three-column .div-2,
+.three-column .div-3 {
+    flex: 1;
+    padding: 50px;
+}
+
+.div-2 {
+    padding-top: 150px !important;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
